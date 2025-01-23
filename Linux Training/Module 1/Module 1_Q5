@@ -1,0 +1,18 @@
+Name: Afreen S
+University: VIT Chennai
+Linux Training - Module 1:
+
+
+5. Create 3 files in a dir1 and re-direct the output of list command with sorted by timestamp of the files to a file.
+ANS:
+afreen@Afreen:~$ mkdir dir1
+afreen@Afreen:~$ cd dir1
+afreen@Afreen:~/dir1$ touch file1 file2 file3
+afreen@Afreen:~/dir1$ ls -lt > outputfile
+afreen@Afreen:~/dir1$ cat outputfile
+total 0
+-rw-rw-r-- 1 afreen afreen 0 Jan 22 20:47 outputfile
+-rw-rw-r-- 1 afreen afreen 0 Jan 22 20:43 file1
+-rw-rw-r-- 1 afreen afreen 0 Jan 22 20:43 file2
+-rw-rw-r-- 1 afreen afreen 0 Jan 22 20:43 file3
+

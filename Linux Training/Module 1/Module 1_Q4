@@ -1,0 +1,248 @@
+Name: Afreen S
+University: VIT Chennai
+Linux Training - Module 1:
+
+
+4. Use ps command with options to display all active process running on the system.
+ANS:
+afreen@Afreen:~$ ps -ef
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 07:17 ?        00:00:14 /sbin/init splash
+root           2       0  0 07:17 ?        00:00:00 [kthreadd]
+root           3       2  0 07:17 ?        00:00:00 [pool_workqueue_release]
+root           4       2  0 07:17 ?        00:00:00 [kworker/R-rcu_g]
+root           5       2  0 07:17 ?        00:00:00 [kworker/R-rcu_p]
+root           6       2  0 07:17 ?        00:00:00 [kworker/R-slub_]
+root           7       2  0 07:17 ?        00:00:00 [kworker/R-netns]
+root          10       2  0 07:17 ?        00:00:00 [kworker/0:0H-kblockd]
+root          12       2  0 07:17 ?        00:00:00 [kworker/R-mm_pe]
+root          13       2  0 07:17 ?        00:00:00 [rcu_tasks_kthread]
+root          14       2  0 07:17 ?        00:00:00 [rcu_tasks_rude_kthread]
+root          15       2  0 07:17 ?        00:00:00 [rcu_tasks_trace_kthread]
+root          16       2  0 07:17 ?        00:00:00 [ksoftirqd/0]
+root          17       2  0 07:17 ?        00:00:05 [rcu_preempt]
+root          18       2  0 07:17 ?        00:00:00 [migration/0]
+root          19       2  0 07:17 ?        00:00:00 [idle_inject/0]
+root          20       2  0 07:17 ?        00:00:00 [cpuhp/0]
+root          21       2  0 07:17 ?        00:00:00 [cpuhp/1]
+root          22       2  0 07:17 ?        00:00:00 [idle_inject/1]
+root          23       2  0 07:17 ?        00:00:01 [migration/1]
+root          24       2  0 07:17 ?        00:00:00 [ksoftirqd/1]
+root          26       2  0 07:17 ?        00:00:00 [kworker/1:0H-events_highpri]
+root          27       2  0 07:17 ?        00:00:00 [cpuhp/2]
+root          28       2  0 07:17 ?        00:00:00 [idle_inject/2]
+root          29       2  0 07:17 ?        00:00:01 [migration/2]
+root          30       2  0 07:17 ?        00:00:00 [ksoftirqd/2]
+root          32       2  0 07:17 ?        00:00:00 [kworker/2:0H-events_highpri]
+root          33       2  0 07:17 ?        00:00:00 [cpuhp/3]
+root          34       2  0 07:17 ?        00:00:00 [idle_inject/3]
+root          35       2  0 07:17 ?        00:00:01 [migration/3]
+root          36       2  0 07:17 ?        00:00:00 [ksoftirqd/3]
+root          38       2  0 07:17 ?        00:00:00 [kworker/3:0H-events_highpri]
+root          43       2  0 07:17 ?        00:00:00 [kdevtmpfs]
+root          44       2  0 07:17 ?        00:00:00 [kworker/R-inet_]
+root          46       2  0 07:17 ?        00:00:00 [kauditd]
+root          47       2  0 07:17 ?        00:00:00 [khungtaskd]
+root          48       2  0 07:17 ?        00:00:00 [oom_reaper]
+root          50       2  0 07:17 ?        00:00:00 [kworker/R-write]
+root          51       2  0 07:17 ?        00:00:01 [kcompactd0]
+root          52       2  0 07:17 ?        00:00:00 [ksmd]
+root          54       2  0 07:17 ?        00:00:00 [khugepaged]
+root          55       2  0 07:17 ?        00:00:00 [kworker/R-kinte]
+root          56       2  0 07:17 ?        00:00:00 [kworker/R-kbloc]
+root          57       2  0 07:17 ?        00:00:00 [kworker/R-blkcg]
+root          58       2  0 07:17 ?        00:00:00 [irq/9-acpi]
+root          60       2  0 07:17 ?        00:00:00 [kworker/R-tpm_d]
+root          61       2  0 07:17 ?        00:00:00 [kworker/R-ata_s]
+root          62       2  0 07:17 ?        00:00:00 [kworker/R-md]
+root          63       2  0 07:17 ?        00:00:00 [kworker/R-md_bi]
+root          64       2  0 07:17 ?        00:00:00 [kworker/R-edac-]
+root          65       2  0 07:17 ?        00:00:00 [kworker/R-devfr]
+root          66       2  0 07:17 ?        00:00:00 [watchdogd]
+root          69       2  0 07:17 ?        00:00:00 [kworker/1:1H-kblockd]
+root          70       2  0 07:17 ?        00:00:00 [kswapd0]
+root          71       2  0 07:17 ?        00:00:00 [ecryptfs-kthread]
+root          73       2  0 07:17 ?        00:00:00 [kworker/R-kthro]
+root          74       2  0 07:17 ?        00:00:00 [kworker/R-acpi_]
+root          77       2  0 07:17 ?        00:00:00 [scsi_eh_0]
+root          78       2  0 07:17 ?        00:00:00 [kworker/R-scsi_]
+root          79       2  0 07:17 ?        00:00:00 [scsi_eh_1]
+root          80       2  0 07:17 ?        00:00:00 [kworker/R-scsi_]
+root          83       2  0 07:17 ?        00:00:00 [kworker/R-mld]
+root          84       2  0 07:17 ?        00:00:00 [kworker/R-ipv6_]
+root          85       2  0 07:17 ?        00:00:00 [kworker/3:1H-kblockd]
+root          93       2  0 07:17 ?        00:00:00 [kworker/R-kstrp]
+root          95       2  0 07:17 ?        00:00:00 [kworker/u13:0]
+root          96       2  0 07:17 ?        00:00:00 [kworker/u14:0-ttm]
+root          97       2  0 07:17 ?        00:00:00 [kworker/u15:0]
+root          98       2  0 07:17 ?        00:00:00 [kworker/u16:0-ttm]
+root          99       2  0 07:17 ?        00:00:00 [kworker/u17:0-ttm]
+root         113       2  0 07:17 ?        00:00:00 [kworker/R-charg]
+root         142       2  0 07:17 ?        00:00:00 [kworker/0:1H]
+root         164       2  0 07:17 ?        00:00:00 [kworker/2:1H-kblockd]
+root         167       2  0 07:17 ?        00:00:00 [scsi_eh_2]
+root         168       2  0 07:17 ?        00:00:00 [kworker/R-scsi_]
+root         226       2  0 07:17 ?        00:00:01 [jbd2/sda2-8]
+root         227       2  0 07:17 ?        00:00:00 [kworker/R-ext4-]
+root         332       2  0 07:17 ?        00:00:00 [irq/18-vmwgfx]
+root         333       2  0 07:17 ?        00:00:00 [kworker/R-ttm]
+root         342       2  0 07:17 ?        00:00:00 [kworker/u8:1-ext4-rsv-conversion]
+systemd+     452       1  0 07:17 ?        00:00:09 /usr/lib/systemd/systemd-oomd
+root         667       2  0 07:17 ?        00:00:00 [kworker/R-iprt-]
+root         706       2  0 07:17 ?        00:00:00 [kworker/R-crypt]
+avahi        954       1  0 07:17 ?        00:00:00 avahi-daemon: running [Afreen.local]
+message+     955       1  0 07:17 ?        00:00:13 @dbus-daemon --system --address=systemd:
+gnome-r+     959       1  0 07:17 ?        00:00:00 /usr/libexec/gnome-remote-desktop-daemon
+polkitd      980       1  0 07:17 ?        00:00:03 /usr/lib/polkit-1/polkitd --no-debug
+root         981       1  0 07:17 ?        00:00:00 /usr/libexec/power-profiles-daemon
+root         985       1  0 07:17 ?        00:00:01 /usr/libexec/accounts-daemon
+root         986       1  0 07:17 ?        00:00:00 /usr/sbin/cron -f -P
+root         987       1  0 07:17 ?        00:00:00 /usr/libexec/switcheroo-control
+root         993       1  0 07:17 ?        00:00:01 /usr/libexec/udisks2/udisksd
+avahi       1003     954  0 07:17 ?        00:00:00 avahi-daemon: chroot helper
+syslog      1023       1  0 07:17 ?        00:00:00 /usr/sbin/rsyslogd -n -iNONE
+root        1046       1  0 07:17 ?        00:00:01 /usr/sbin/NetworkManager --no-daemon
+root        1049       1  0 07:17 ?        00:00:00 /usr/sbin/wpa_supplicant -u -s -O DIR=/r
+root        1099       1  0 07:17 ?        00:00:00 /usr/sbin/ModemManager
+root        1325       1  0 07:18 ?        00:00:21 /usr/bin/VBoxDRMClient
+root        1327       1  0 07:18 ?        00:00:06 /usr/sbin/VBoxService --pidfile /var/run
+root        1361       2  0 07:18 ?        00:00:00 [kworker/u14:1]
+root        1504       1  0 07:18 ?        00:00:00 /usr/sbin/cupsd -l
+root        1507       1  0 07:18 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-u
+root        1526       1  0 07:18 ?        00:00:00 /usr/sbin/gdm3
+cups-br+    1527       1  0 07:18 ?        00:00:00 /usr/sbin/cups-browsed
+kernoops    1528       1  0 07:18 ?        00:00:00 /usr/sbin/kerneloops --test
+kernoops    1531       1  0 07:18 ?        00:00:00 /usr/sbin/kerneloops
+rtkit       1618       1  0 07:18 ?        00:00:00 /usr/libexec/rtkit-daemon
+colord      1701       1  0 07:18 ?        00:00:00 /usr/libexec/colord
+root        1746       1  0 07:18 ?        00:00:08 /usr/libexec/upowerd
+root        2013       2  0 07:18 ?        00:00:00 [kworker/u16:1]
+afreen      2143       1  0 07:18 ?        00:00:07 /usr/lib/systemd/systemd --user
+afreen      2147    2143  0 07:18 ?        00:00:00 (sd-pam)
+afreen      2158    2143  0 07:18 ?        00:00:01 /usr/bin/pipewire
+afreen      2159    2143  0 07:18 ?        00:00:00 /usr/bin/pipewire -c filter-chain.conf
+afreen      2164    2143  0 07:18 ?        00:00:01 /usr/bin/wireplumber
+afreen      2167    2143  0 07:18 ?        00:00:00 /usr/bin/pipewire-pulse
+afreen      2320    2143  0 07:18 ?        00:00:00 /usr/libexec/gcr-ssh-agent --base-dir /r
+afreen      3102    2143  0 07:19 ?        00:00:00 /usr/bin/VBoxClient --clipboard
+afreen      3120    2143  0 07:19 ?        00:00:00 /usr/bin/VBoxClient --vmsvga-session
+afreen      3137    3120  0 07:19 ?        00:00:03 /usr/bin/VBoxClient --vmsvga-session
+root        3797       2  0 07:30 ?        00:00:00 [psimon]
+root        3850       1  0 07:39 ?        00:00:02 /usr/libexec/fwupd/fwupd
+root        4481       1  0 10:25 ?        00:00:00 /usr/lib/snapd/snap-failure snapd
+root        4504       1  0 10:25 ?        00:00:00 /usr/lib/systemd/systemd-udevd
+root        4528       2  0 10:25 ?        00:00:00 [psimon]
+root        4586    4481  0 10:26 ?        00:00:03 /snap/snapd/21759/usr/lib/snapd/snapd
+root        4684       1  0 10:26 ?        00:00:02 /usr/lib/systemd/systemd-logind
+root        4686       1  0 10:26 ?        00:00:01 /usr/lib/systemd/systemd-journald
+systemd+    5676       1  0 10:45 ?        00:00:00 /usr/lib/systemd/systemd-resolved
+root        5810       2  0 11:09 ?        00:00:01 [kworker/3:1-events]
+afreen      6040    2143  0 11:20 ?        00:00:03 /usr/bin/dbus-daemon --session --address
+afreen      6459    2143  0 11:20 ?        00:00:00 /usr/libexec/xdg-document-portal
+afreen      6471    2143  0 11:20 ?        00:00:00 /usr/libexec/xdg-permission-store
+root        6482    6459  0 11:20 ?        00:00:00 fusermount3 -o rw,nosuid,nodev,fsname=po
+root        6485    1526  0 11:20 ?        00:00:00 gdm-session-worker [pam/gdm-password]
+afreen      6533    3102  0 11:20 ?        00:00:00 /usr/bin/VBoxClient --clipboard
+afreen      6538    2143  0 11:20 ?        00:00:00 /usr/bin/gnome-keyring-daemon --foregrou
+afreen      6560    6485  0 11:20 tty2     00:00:00 /usr/libexec/gdm-wayland-session env GNO
+afreen      6567    6560  0 11:20 tty2     00:00:00 /usr/libexec/gnome-session-binary --sess
+afreen      6605    2143  0 11:20 ?        00:00:00 /usr/libexec/gnome-session-ctl --monitor
+afreen      6630    2143  0 11:20 ?        00:00:00 /usr/libexec/gvfsd
+afreen      6642    2143  0 11:20 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1000/g
+afreen      6645    2143  0 11:20 ?        00:00:00 /usr/libexec/gnome-session-binary --syst
+afreen      6681    6645  0 11:20 ?        00:00:00 /usr/libexec/at-spi-bus-launcher --launc
+afreen      6689    2143  1 11:20 ?        00:09:20 /usr/bin/gnome-shell
+afreen      6693    6681  0 11:20 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/usr/
+afreen      6742    2143  0 11:20 ?        00:00:00 /usr/libexec/at-spi2-registryd --use-gno
+afreen      6758    2143  0 11:20 ?        00:00:00 /usr/libexec/gnome-shell-calendar-server
+afreen      6766    2143  0 11:20 ?        00:00:00 /usr/libexec/evolution-source-registry
+afreen      6775    2143  0 11:20 ?        00:00:00 /usr/bin/gjs -m /usr/share/gnome-shell/o
+afreen      6776    6689  0 11:20 ?        00:00:00 /usr/bin/Xwayland :0 -rootless -noreset 
+afreen      6783    2143  0 11:20 ?        00:00:00 /usr/libexec/goa-daemon
+afreen      6786    2143  0 11:20 ?        00:00:09 /usr/bin/ibus-daemon --panel disable
+afreen      6791    2143  0 11:20 ?        00:00:00 /usr/libexec/gsd-a11y-settings
+afreen      6795    2143  0 11:20 ?        00:00:00 /usr/libexec/gsd-color
+afreen      6802    2143  0 11:20 ?        00:00:00 /usr/libexec/gsd-datetime
+afreen      6805    2143  0 11:20 ?        00:00:00 /usr/libexec/gsd-housekeeping
+afreen      6807    2143  0 11:20 ?        00:00:00 /usr/libexec/gsd-keyboard
+afreen      6810    2143  0 11:20 ?        00:00:00 /usr/libexec/gsd-media-keys
+afreen      6813    2143  0 11:20 ?        00:00:00 /usr/libexec/gsd-power
+afreen      6816    2143  0 11:20 ?        00:00:00 /usr/libexec/gsd-print-notifications
+afreen      6821    2143  0 11:20 ?        00:00:00 /usr/libexec/gsd-rfkill
+afreen      6825    2143  0 11:20 ?        00:00:00 /usr/libexec/gsd-screensaver-proxy
+afreen      6830    2143  0 11:20 ?        00:00:00 /usr/libexec/gsd-sharing
+afreen      6831    6645  0 11:20 ?        00:00:00 /usr/libexec/gsd-disk-utility-notify
+afreen      6834    2143  0 11:20 ?        00:00:00 /usr/libexec/gsd-smartcard
+afreen      6838    2143  0 11:20 ?        00:00:00 /usr/libexec/gsd-sound
+afreen      6840    2143  0 11:20 ?        00:00:00 /usr/libexec/gsd-wacom
+afreen      6853    6645  0 11:20 ?        00:00:00 /usr/libexec/evolution-data-server/evolu
+afreen      6916    2143  0 11:20 ?        00:00:00 /usr/libexec/evolution-calendar-factory
+afreen      6957    2143  0 11:20 ?        00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
+afreen      6961    2143  0 11:20 ?        00:00:00 /usr/libexec/goa-identity-service
+afreen      6981    2143  0 11:20 ?        00:00:00 /usr/libexec/gsd-printer
+afreen      7007    6786  0 11:20 ?        00:00:00 /usr/libexec/ibus-memconf
+afreen      7009    6786  0 11:20 ?        00:00:04 /usr/libexec/ibus-extension-gtk3
+afreen      7017    2143  0 11:20 ?        00:00:00 /usr/libexec/ibus-portal
+afreen      7046    2143  0 11:20 ?        00:00:00 /usr/libexec/evolution-addressbook-facto
+afreen      7049    2143  0 11:21 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+afreen      7060    2143  0 11:21 ?        00:00:01 /usr/libexec/gvfs-afc-volume-monitor
+afreen      7070    2143  0 11:21 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+afreen      7077    2143  0 11:21 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+afreen      7094    6786  0 11:21 ?        00:00:03 /usr/libexec/ibus-engine-simple
+afreen      7109    2143  0 11:21 ?        00:00:00 /usr/libexec/dconf-service
+afreen      7113    2143  0 11:21 ?        00:00:00 /snap/snapd-desktop-integration/253/usr/
+afreen      7173    7113  0 11:21 ?        00:00:00 /snap/snapd-desktop-integration/253/usr/
+afreen      7190    2143  0 11:21 ?        00:00:00 /usr/libexec/gvfsd-metadata
+afreen      7191    6630  0 11:21 ?        00:00:00 /usr/libexec/gvfsd-trash --spawner :1.13
+afreen      7214    2143  0 11:21 ?        00:00:00 /usr/libexec/gsd-xsettings
+afreen      7221    2143  0 11:21 ?        00:00:00 /usr/libexec/xdg-desktop-portal
+afreen      7271    2143  0 11:21 ?        00:00:00 /usr/bin/gjs -m /usr/share/gnome-shell/o
+root        7274       2  0 11:21 ?        00:00:00 [kworker/u17:1]
+afreen      7327    2143  0 11:21 ?        00:00:00 /usr/libexec/ibus-x11
+afreen      7332    2143  0 11:21 ?        00:00:01 /usr/libexec/tracker-miner-fs-3
+afreen      7333    2143  0 11:21 ?        00:00:00 /usr/libexec/xdg-desktop-portal-gnome
+afreen      7350    6689  0 11:21 ?        00:00:00 /usr/libexec/mutter-x11-frames
+afreen      7410    2143  0 11:21 ?        00:00:00 /usr/libexec/xdg-desktop-portal-gtk
+afreen      7514    6645  0 11:21 ?        00:00:01 /usr/bin/update-notifier
+root        7904       2  0 12:11 ?        00:00:05 [kworker/0:1-events]
+afreen      8082    2143  0 12:49 ?        00:00:43 /usr/bin/nautilus --gapplication-service
+afreen      8113    6630  0 12:49 ?        00:00:00 /usr/libexec/gvfsd-recent --spawner :1.1
+afreen      8226    2143  0 12:54 ?        00:00:16 /usr/libexec/gnome-terminal-server
+afreen      8233    8226  0 12:54 pts/0    00:00:00 bash
+root        8585       2  0 17:55 ?        00:00:00 [kworker/u9:3-events_freezable_power_]
+afreen      8656    6689  0 17:59 ?        00:01:21 /snap/firefox/5647/usr/lib/firefox/firef
+afreen      8862    8656  0 17:59 ?        00:00:00 /snap/firefox/5647/usr/lib/firefox/firef
+afreen      8907    8656  0 17:59 ?        00:00:03 /snap/firefox/5647/usr/lib/firefox/firef
+afreen      8912    8656  0 17:59 ?        00:00:00 /snap/firefox/5647/usr/lib/firefox/firef
+afreen      8942    8656  0 17:59 ?        00:00:06 /snap/firefox/5647/usr/lib/firefox/firef
+afreen      8979    2143  0 17:59 ?        00:00:00 /usr/bin/snap userd
+afreen      9430    8656  0 17:59 ?        00:00:00 /snap/firefox/5647/usr/lib/firefox/firef
+afreen      9441    8656  0 17:59 ?        00:00:19 /snap/firefox/5647/usr/lib/firefox/firef
+afreen      9459    8656  0 17:59 ?        00:00:02 /snap/firefox/5647/usr/lib/firefox/firef
+afreen      9537    8656  0 17:59 ?        00:00:02 /snap/firefox/5647/usr/lib/firefox/firef
+root        9567       2  0 17:59 ?        00:00:00 [kworker/u8:2-ext4-rsv-conversion]
+afreen      9577    8656  0 17:59 ?        00:00:02 /snap/firefox/5647/usr/lib/firefox/firef
+root        9747       2  0 18:01 ?        00:00:00 [kworker/u9:2-events_power_efficient]
+root       10082       2  0 18:31 ?        00:00:01 [kworker/u10:0-events_power_efficient]
+root       10501       2  0 18:59 ?        00:00:00 [kworker/1:3-events]
+afreen     10581    2143  3 19:05 ?        00:03:20 /usr/bin/gnome-text-editor /home/afreen/
+root       10698       2  0 19:10 ?        00:00:00 [kworker/u10:3-events_power_efficient]
+root       10802       2  0 19:17 ?        00:00:00 [kworker/u11:1-events_power_efficient]
+root       10842       2  0 19:41 ?        00:00:00 [kworker/u9:4-events_power_efficient]
+root       11077       2  0 19:56 ?        00:00:00 [kworker/1:0-events]
+root       11078       2  0 19:56 ?        00:00:00 [kworker/u12:0-events_power_efficient]
+root       11205       2  0 20:03 ?        00:00:00 [kworker/u12:2-events_power_efficient]
+root       11243       2  0 20:07 ?        00:00:00 [kworker/u11:2-flush-8:0]
+root       11277       2  0 20:10 ?        00:00:00 [kworker/u10:1-events_unbound]
+root       11331       2  0 20:14 ?        00:00:00 [kworker/u11:0-events_unbound]
+root       11422       2  0 20:19 ?        00:00:00 [kworker/3:3]
+root       11465       2  0 20:24 ?        00:00:00 [kworker/u12:3-events_power_efficient]
+root       11509       2  0 20:26 ?        00:00:00 [kworker/2:2-mm_percpu_wq]
+afreen     11518    6689  0 20:26 ?        00:00:00 gjs /usr/share/gnome-shell/extensions/di
+root       11565       2  0 20:27 ?        00:00:00 [kworker/0:2-cgroup_destroy]
+root       11600       2  0 20:29 ?        00:00:00 [kworker/2:3]
+root       11613       2  0 20:30 ?        00:00:00 [kworker/u12:1-events_unbound]
+root       11623       2  0 20:31 ?        00:00:00 [kworker/u10:2-events_unbound]
+root       11635       1  0 20:33 ?        00:00:00 /usr/sbin/anacron -d -q -s
+afreen     11656    8233 99 20:35 pts/0    00:00:00 ps -ef
+
