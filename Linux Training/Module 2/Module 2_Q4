@@ -1,0 +1,18 @@
+Name: Afreen S
+University: VIT Chennai
+Linux Training - Module 2:
+
+
+4. Write a code to identify the process with the highest memory usage and then terminate it.
+ANS:
+afreen@Afreen:~$ ps aux --sort=-%mem | head -n 2
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+afreen      3105  4.5 10.1 11871848 502244 ?     Sl   20:05   1:31 /snap/firefox/5647/usr/lib/firefox/firefox
+afreen@Afreen:~$ kill 3105
+
+
+
+
+
+
+

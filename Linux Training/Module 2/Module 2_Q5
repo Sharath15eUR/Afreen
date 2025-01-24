@@ -1,0 +1,17 @@
+Name: Afreen S
+University: VIT Chennai
+Linux Training - Module 2:
+
+
+5. Use the networking tool command and print all the gateway available in a sorted manner.
+ANS:
+afreen@Afreen:~$ ip route | grep default | awk '{print $3"  "$9}' | sort
+10.0.2.2  10.0.2.15
+
+
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+Name: Afreen S
+University: VIT Chennai
+Linux Training - Module 2:
+
+
+1. Use the appropriate command to list all files larger than 1 MB in the current directory and save the output to a file.
+ANS:
+afreen@Afreen:~/Downloads$ ls
+'2mb(1).xml'   2mb.xml   file   file2   file3   file4   file5   output
+afreen@Afreen:~/Downloads$ ls -lh
+total 4.3M
+-rw-rw-r-- 1 afreen afreen 2.1M Jan 23 21:36 '2mb(1).xml'
+-rw-rw-r-- 1 afreen afreen 2.1M Jan 23 21:36  2mb.xml
+-rwxrwxr-x 1 afreen afreen 4.9K Jan 23 21:37  file
+-rwxrwxr-x 1 afreen afreen 4.9K Jan 23 21:37  file2
+-rwxrwxr-x 1 afreen afreen 2.2K Jan 23 21:37  file3
+-rwxrwxr-x 1 afreen afreen 5.8K Jan 23 21:38  file4
+-rwxrwxr-x 1 afreen afreen    0 Jan 23 21:50  file5
+-rw-rw-r-- 1 afreen afreen    6 Jan 23 21:51  output
+afreen@Afreen:~/Downloads$ find . -size +1M
+./2mb(1).xml
+./2mb.xml
+afreen@Afreen:~/Downloads$ find . -size +1M > output
+afreen@Afreen:~/Downloads$ cat output
+./2mb(1).xml
+./2mb.xml
+
+
