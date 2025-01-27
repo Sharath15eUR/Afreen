@@ -6,20 +6,20 @@ Linux Training - Module 2:
 2. Replace all occurrences of "localhost" with "127.0.0.1" in a configuration file named config.txt, and save the updated file as updated_config.txt.
 ANS:
 afreen@Afreen:~$ cat config.txt
-server_name = localhost
-port = 8080
-db_host = localhost
-db_port = 3306
-log_level = info
-log_host = localhost
+server = localhost
+database_host = localhost
+port = 3306
+api_url = http://localhost:8080
+log_path = /var/log/localhost
+timeout = 30
 afreen@Afreen:~$ sed 's/localhost/127.0.0.1/g' config.txt > updated_config.txt
 afreen@Afreen:~$ cat updated_config.txt 
-server_name = 127.0.0.1
-port = 8080
-db_host = 127.0.0.1
-db_port = 3306
-log_level = info
-log_host = 127.0.0.1
+server = 127.0.0.1
+database_host = 127.0.0.1
+port = 3306
+api_url = http://127.0.0.1:8080
+log_path = /var/log/127.0.0.1
+timeout = 30
 
 
 
