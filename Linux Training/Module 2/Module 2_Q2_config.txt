@@ -1,8 +1,6 @@
-server_name = localhost
-port = 8080
-db_host = localhost
-db_port = 3306
-log_level = info
-log_host = localhost
-
-
+server = localhost
+database_host = localhost
+port = 3306
+api_url = http://localhost:8080
+log_path = /var/log/localhost
+timeout = 30
